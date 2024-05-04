@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    /* font-weight: bold; */
+}
+.hero{
+    height: 30vh;
+    width: 100%;
+ 
+}
+nav{
+    background-color: #8a2be2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-left:8% ;
+    padding-right:8% ;
+    padding-bottom: 1%;   
+    
+}
+
+.logo{
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:black;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:0.63rem 1.5rem ;
+}
+/* i.fa-bars{
+    display: none;
+} */
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    padding: .7rem 1rem;
+    color: blueviolet;
+    background: white;
+    transition: .2s;
+   
+}
+.btn {
+    background-color:white;
+    color: blueviolet;
+    text-decoration: none;
+    border: .1rem solid transparent;
+    font-weight: bold;
+    padding: .4rem 1.3rem;
+    border-radius: .2rem;
+    transition: transfrom .4s;
+
+}
+.btn:hover{
+transform:scale(1.2)
+}
+nav .btn a{
+    text-decoration: none;
+}
+.me{
+    height: 350px;
+    width: 350px;
+border: 8px solid blueviolet;
+border-radius: 50%;
+display: grid;
+place-items: center;
+transition: background-color .4s;
+
+
+}
+.ima{
+    object-fit: contain;
+
+}
+.leave{
+border: 8px solid blueviolet;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 290px;
+    width: 290px;
+    
+    background-color: hsla(255, 70%, 58%, 0.973);
+
+     
+}
+div h1{
+    text-align: center;
+}
+.space{
+    margin-right: 6pc;
+}
+.About{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+div section {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+header{
+    display: none;
+}
+i.fa-solid{
+    display: none;
+}
+.active{
+    padding: .7rem 1rem;
+    background-color: #ffffff;
+    color: blueviolet;
+    
+}
+
+@media  screen and (max-width:767px) {
+   .hero{
+    height: 40vh;
+   }
+   /* .btn{
+    display: none;
+   } */
+  
+    li img{
+        width: 150px !important;
+        height: 110px !important;
+        margin-top: .7pc;
+        
+    }
+     div section{
+    display: block;
+        flex-wrap: wrap;
+        /* flex: 50px; */
+        
+    }
+    .space{
+        margin-left: 4pc;
+        padding-left: 2.4pc;
+    }
+    .leave{
+        width: 200px;
+        height: 200px;
+    }
+    .me{
+        width: 250px;
+        height: 250px;
+        
+    }
+    .ima{
+        object-fit: contain;
+        width: 100%;
+        height: 200px;
+    }
+    .About{
+        display: block;
+    }
+    .what-you{
+       display: flex;
+       flex-wrap: wrap;
+        
+    }
+
+    footer{
+        display: block;
+    }
+    div .fa-solid{
+        display: contents;
+    padding: 4rem;
+        font-size:1.3rem
+      }
+      nav ul{
+        display: none;
+      }
+      header{
+        display: contents;
+        
+       
+    }
+    .mainnav{
+        position: absolute;
+        top: 14.8%;
+        right: 1%;
+        background-color: rgb(192, 162, 212);
+        width: 97.5%;
+        height: 9rem;
+       
+        transition: .5s;
+        transform: translateX(8rem), rotate3d(50deg);
+    }
+    .mainnav li a{
+        color: black;
+       
+    }
+    .mainnav  li{
+        list-style-type:none ;
+        text-align: center;
+        padding: .8rem;
+   
+    }
+    .mainnav li:hover{
+        background-color: rgb(235, 208, 208);
+    }
+   
+}
+
+footer{
+    background-color: blueviolet;
+    margin-top: 4%;
+    padding-bottom: 3pc;
+    
+}
+ div.ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:8% ;
+    padding-right:8% ;
+    padding-bottom: 1%; 
+  
+}
+li a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+/* li a:hover{
+    color: yellow;
+    transition: .4s;
+} */
+div ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 25px ;
+    
+}
+.what-you{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5pc;
+
+}
+
+div .social{
+    display: flex;
+   flex-direction:row;
+   column-gap: 2.5rem;
+   margin-top: 1.5pc;
+   color: #f9004d;
+}
+.social i{
+    color: white;
+    
+}
+footer p{
+    color: white;
+    text-align:center ;
+}

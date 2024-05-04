@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.hero{
+    height:30vh;
+    width: 100%;
+    
+
+}
+
+nav{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    padding-top: 45px;
+    padding-left:8% ;
+    padding-right:8% ;
+    padding-bottom: 1%;   
+
+  
+    
+}
+.luck{
+    display: flex;
+margin-left:15pc ;
+}
+.logo{
+    color: black;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:blueviolet;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 25px ;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    padding: .7rem 1rem;
+    color: white;
+    background: blueviolet;
+    transition: .2s;
+   
+}
+
+.btn {
+    background-color:blueviolet;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 3px;
+    transition: transfrom .4s;
+
+}
+.btn:hover{
+transform:scale(1.2)
+}
+nav .btn a{
+    text-decoration: none;
+    color: white;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2pc;
+}
+
+fieldset{
+    width:400px;
+    height: 50px;
+    margin-left: 0.3pc;
+    margin-right: 0.3pc;
+    
+ }
+input{
+    border: none;
+   width: 27pc;
+    height: 1.5pc;
+} 
+input:focus{
+    outline: none;
+
+}  
+
+.feed{
+    display: flex;
+    justify-content: center;
+ 
+}
+.fieldset{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2pc 0px 0px 0px;
+   padding-bottom: 3pc;
+   
+}
+.fieldset1{
+ width: 40%;
+ height:19pc;
+}
+textarea{
+    border: none;
+    resize: none;
+}
+textarea:focus{
+outline: none;
+}
+.btn1{
+  /* position: absolute; */
+    padding: 10px 50px;
+    /* border-radius: .7pc; */
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+text-align: center;
+margin-left: 46%;
+    font-size: 16px;
+    margin-top: -1pc;
+   
+   
+}
+.button{
+margin-bottom: 4pc;
+}
+
+footer{
+    background-color: blueviolet;
+    margin-top: 4%;
+    padding-bottom: 3pc;
+}
+ div.ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:8% ;
+    padding-right:8% ;
+    padding-bottom: 1%; 
+  
+}
+li a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+li a:hover{
+    color: yellow;
+    transition: .4s;
+}
+div ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 25px ;
+    
+}
+.what-you{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5pc;
+}
+
+div .social{
+    display: flex;
+   flex-direction:row;
+   column-gap: 2.5rem;
+   margin-top: 1.5pc;
+   color: #f9004d;
+}
+.social i{
+    color: white;
+}
+footer p{
+    color: white;
+    text-align:center ;
+}
+.active{
+    padding: .7rem 1rem;
+    background-color: #ffffff;
+    color: blueviolet;
+
+}
+header{
+    display: none;
+}
+i.fa-solid{
+    display: none;
+}
+#active{
+    
+        padding: .7rem 1rem;
+        background-color: #ffffff;
+        color: blueviolet;
+        
+    }
+
+
+@media screen and (max-width: 767px){
+  nav ul{
+    display: none;
+  }
+  .hero nav{
+    /* border: #dd49b8 2px solid; */
+    box-shadow: #eed9e0 3px 3px 3px 3px;
+  }
+  .btn{
+    margin-right: 2rem;
+  }
+  .logo{
+    margin-left: -4rem;
+  }
+    .feed{
+    margin-left: 1pc;
+    margin-right: 1pc;
+    display: block;
+    
+  }
+  div .fa-solid{
+    display: contents;
+padding: 4rem;
+    font-size:1.3rem
+  }
+
+     input{
+        width: 200px;
+    
+    } 
+    textarea{
+        width: 450px;
+    }
+    .button{
+        margin-left: -5.5pc;
+        margin-top: -2.3pc;
+    }
+    fieldset{
+        margin-bottom: 2pc;
+    }
+    .fieldset1{
+        margin-top: -2pc;
+        height: 200px;
+    }
+    textarea{
+        height: 160px;
+    }
+    header{
+        display: contents;
+        
+       
+    }
+    .mainnav{
+        position: absolute;
+        top: 14.8%;
+        right: 1%;
+        background-color: rgb(192, 162, 212);
+        width: 97.5%;
+        height: 9rem;
+       
+        transition: .5s;
+        transform: translateX(8rem), rotate3d(50deg);
+    }
+    .mainnav li a{
+        color: black;
+       
+    }
+    .mainnav  li{
+        list-style-type:none ;
+        text-align: center;
+        padding: .8rem;
+   
+    }
+    .mainnav li:hover{
+        background-color:#ddd;
+    }
+   
+}
+@media (min-width:678px) and (max-width:882px){
+  .feed{
+    display: block;
+    padding: 2rem;
+   }
+      }
